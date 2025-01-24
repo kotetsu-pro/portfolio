@@ -7,7 +7,7 @@ html {
 body {
   color: #333;
   font-family: "Short Stack", serif;
-  background-image: url(/img/ba.png);
+  background-image: url(../img/ba.png);
   background-attachment: fixed;
   background-size: 100vw;
   background-repeat: repeat;
