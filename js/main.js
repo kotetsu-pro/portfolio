@@ -4,8 +4,14 @@ $(function(){
     $("header").toggleClass("open"); 
   });
 
+
   // #maskのエリアをクリックした時にメニューを閉じる
   $("#mask").on("click", function () {
+    $("header").removeClass("open");
+  });
+
+
+  $("#nav a").on("click",function(){
     $("header").removeClass("open");
   });
 
