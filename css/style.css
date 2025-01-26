@@ -329,8 +329,8 @@ sp
     height: 40px;
     cursor: pointer;
     position: fixed;
-    top: 40px;
-    right: 40px;
+    top: 20px;
+    right: 20px;
     transition: all 0.5s;
     z-index: 20;
   }
