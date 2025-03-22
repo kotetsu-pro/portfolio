@@ -4,190 +4,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>こてつラーメン</title>
+  <title>KOTETSU Portfolio</title>
   <link rel="shortcut icon" href="img/favicon.png">
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link rel="stylesheet" href="css/style.css">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Zen+Antique+Soft&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Short+Stack&display=swap"
     rel="stylesheet">
-
 </head>
 
 <body>
+  <div class="wrap">
 
-  <div class="shutter"></div>
+    <header>
+      <nav id="nav">
+        <ul>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
 
-  <header>
-
-      <div class="black-top">
-        <nav>
-          <ul class="header-nav">
-            <li><a href="#concept">こだわり</a></li>
-            <li><a href="#menu">お品書き</a></li>
-            <li><a href="#info">店舗情報</a></li>
-          </ul>
-        </nav>
-
-        <h1 class="site-ttl"><a href="index.html"><img src="img/site-ttl.png" alt="とんこつこてつ"></a></h1>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-  </header>
+
+      <div id="mask"></div>
+
+      <h1 class="site-ttl">
+        KOTETSU<br>
+        Portfolio
+      </h1>
+    </header>
 
 
-
-  <main>
-    <div class="black-bottom">
-      <section id="concept">
-        <div class="flex-reverse wrap">
-          <div class="concept-main">
-            <div class="concept-content flex fadein">
-              <div class="content-img">
-                <img src="img/concept1.jpeg" alt="とんこつスープの写真">
-              </div>
-              <div class="content-text">
-                <h2>じっくり煮込んだとんこつスープ</h2>
-                <p>
-                  厳選された食材を長時間込み、旨味をぎゅっと詰め込みました。
-                  最後の一滴まで飲みほしてしまいたくなるようなスープ。
-                </p>
-              </div>
+    <section id="works" class="inner">
+      <h2 class="section-ttl">Works</h2>
+      <div class="grid">
+        <li>
+          <a href="https://kotetsu-pool.netlify.app/">
+            <img src="img/kotetus-pool.png" alt="こてつ市民プール">
+            <div class="mask">
+              <div class="caption">こてつ市民プール</div>
             </div>
-
-            <div class="concept-content flex-reverse fadein">
-              <div class="content-text">
-                <h2>スープが絡みやすいちぢれ麵</h2>
-                <p>
-                  100％小麦の自家製麺。
-                  絡みやすいちぢれ麵でスープと麺を一緒に楽しめるように工夫しています。
-                </p>
-              </div>
-              <div class="content-img">
-                <img src="img/concept2.jpeg" alt="麺の写真">
-              </div>
+          </a>
+        </li>
+        <li>
+          <a href="https://kotetsu-ramen.netlify.app/">
+            <img src="img/kotetsu-ramen.png" alt="こてつラーメン">
+            <div class="mask">
+              <div class="caption">こてつラーメン</div>
             </div>
+          </a>
+        </li>
+
+      </div>
+    </section>
 
 
-            <div class="concept-content flex fadein">
-              <div class="content-img">
-                <img src="img/concept3.jpeg" alt="チャーシューの写真">
-              </div>
-              <div class="content-text">
-                <h2>トッピングは食べ応えのあるチャーシューを</h2>
-                <p>
-                  低温でじっくり煮込んだとろけるチャーシュー。
-                  肉厚にカットして食べ応えのあるトッピングになっています。
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <p class="concept-text">
-            おいしいに<br>
-            &emsp;&emsp;こだわったいっぱいを
+    <section id="about" class="inner">
+      <h2 class="section-ttl">About</h2>
+      <div class="flex">
+        <img src="img/favicon.png" alt="Kotetsuの写真">
+        <div class="text">
+          <p class="name">Kotetsu</p>
+          <p>
+            子育て奮闘中の2児のママです。<br>
+            子供の成長をもっと一緒に楽しみたいと思い、WEB制作について勉強しています。<br>
+            学生時代は水の中で生活しているのかと思うほど、水泳に打ち込んでいました。<br>
+            学生時代に培った、諦めない気持ちや向上心を大切に、WEB制作にも取り組みます。
           </p>
-
-        </div>
-      </section>
-    </div>
-
-    <section id="menu">
-      <div class="flex wrap">
-        <div class="menu-list fadein">
-          <h2 class="menu-ttl">お品書き</h2>
-          <ul>
-            <li>とんこつラーメン</li>
-            <li>とんこつラーメン【チャーシュー大盛】</li>
-            <li>替え玉</li>
-            <li>チャーシュー丼</li>
-            <li>ごはん</li>
-            <li>からあげ</li>
-            <li>お子様セット</li>
-            <li>ビール</li>
-            <li>烏龍茶</li>
-          </ul>
-        </div>
-
-        <div class="menu-img fadein">
-          <ul class="grid">
-            <li>
-              <img src="img/menu-1.png" alt="とんこつラーメンの写真">
-              <p>とんこつラーメン</p>
-            </li>
-            <li>
-              <img src="img/menu-1.png" alt="とんこつラーメン【チャーシュー大盛】の写真">
-              <p>とんこつラーメン</p>
-            </li>
-            <li>
-              <img src="img/menu-3.jpeg" alt="チャーシュー丼の写真">
-              <p>チャーシュー丼</p>
-            </li>
-            <li>
-              <img src="img/menu-4.jpeg" alt="お子様セットの写真">
-              <p>お子様セット</p>
-            </li>
-          </ul>
+          <p>
+            好きなこと：漫画、スイーツ、体を動かす
+          </p>
+          <p>HTML/CSS/jQuery/WordPress</p>
         </div>
       </div>
+
     </section>
 
-    <section id="info" class="fadein">
-      <div class="wrap">
-        <h2>店舗情報</h2>
-
-        <div class="flex">
-          <img src="img/info.jpeg" alt="店舗の写真">
-          <div class="info-list">
-            <dl>
-              <dt>住所</dt>
-              <dd>〒XXX-XXXX 東京都○○区○○XX-XX-XX</dd>
-              <dt>電話番号</dt>
-              <dd>XXX-XXX-XXXX</dd>
-              <dt>営業時間</dt>
-              <dd>11：00～23：00</dd>
-              <dt>定休日</dt>
-              <dd>不定休</dd>
-              <dt>駐車台数</dt>
-              <dd>8台</dd>
-            </dl>
-          </div>
-        </div>
-        <div class="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d373588.90415046137!2d140.91831227979006!3d42.98536549053668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0ad4755a973633%3A0x33937e9d4687bad5!2z5YyX5rW36YGT5pyt5bmM5biC!5e0!3m2!1sja!2sjp!4v1742493408321!5m2!1sja!2sjp"
-            width="90%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+    <section id="contact" class="inner">
+      <h2 class="section-ttl">Contact</h2>
+      <div class="btn">
+        <a href="contact.html">お問い合わせはこちらから</a>
       </div>
     </section>
-
-  </main>
+  </div>
 
   <footer>
-    <h1 class="footer-site-ttl">
-      <a href="index.html"><img src="img/site-ttl.png" alt="とんこつこてつ"></a>
-    </h1>
-    <nav class="footer-nav">
-      <ul class="flex">
-        <li><a href="index.html">トップ</a></li>
-        <li><a href="#concept">こだわり</a></li>
-        <li><a href="#menu">お品書き</a></li>
-        <li><a href="#info">店舗情報</a></li>
-      </ul>
-    </nav>
-
-    <p>&copy; とんこつこてつ</p>
+    <p>&copy; KOTETSU 2025</p>
   </footer>
 
-  <button class="page-top">PAGE<br>TOP</button>
- 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
-
-
-
 </body>
 
 </html>
